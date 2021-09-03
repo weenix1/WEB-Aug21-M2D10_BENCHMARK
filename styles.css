@@ -1,0 +1,30 @@
+.bg-svideo-dark {
+  background-color: #0f171e;
+  background-image: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, 0.85));
+  background-repeat: repeat-x;
+}
+
+.bg-intro {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  /* height: calc(100vh - 82px - 62px); */
+}
+
+#what-good .side-sale {
+  display: flex;
+}
+
+body {
+  background-color: rgb(203, 206, 209);
+}
